@@ -8,8 +8,8 @@ import static org.junit.Assert.assertTrue;
 public class TestOddOrEven {
     @Test
     public void shouldreturnFalseForEven() {
-        OddorEven oddorEven = new OddorEven(4);
-        assertTrue(oddorEven.isOdd());
+        OddorEven oddorEven = new OddorEven();
+        assertTrue(oddorEven.isOdd(4));
     }
 
 }
