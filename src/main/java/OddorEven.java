@@ -7,7 +7,7 @@ public class OddorEven {
         this.number = number;
         }
 
-        public boolean isOdd() {
+        public isOdd() {
         return (number %2 == 0);
     }
 }
