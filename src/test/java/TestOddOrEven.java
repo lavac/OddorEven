@@ -9,7 +9,7 @@ public class TestOddOrEven {
     @Test
     public void shouldreturnFalseForEven() {
         OddorEven oddorEven = new OddorEven();
-        assertTrue(oddorEven.isOdd(4));
+        assertTrue(oddorEven.isOdd(3));
     }
 
 }
